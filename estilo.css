@@ -14,7 +14,7 @@
 .navbar{
     display: flex;
     justify-content: space-between;
-    background: rgb(10, 59, 124);
+    background: #5b7289;
     align-items: center;
     padding: 10px 40px;
     
@@ -58,7 +58,7 @@
 .contenedor{
     display: flex;
     align-items: center;
-    background-color: rgb(67, 77, 170);
+    background-color: #355779;
     justify-content: center;
     color: rgb(255, 255, 255);
     padding: 80px 10px;
@@ -73,7 +73,6 @@
 .h2{
     font-size: 30px;
     margin-bottom: 10px;
-
 }
 
 .mi_nombre {
@@ -98,12 +97,12 @@
     padding: 80px 10%;
 }
 
-.titulo-seccion {
+.titulo-SobreMi {
     text-align: center;
     margin-bottom: 50px;
 }
 
-.titulo-seccion h2 {
+.titulo-SobreMi h2 {
     font-size: 35px;
     color: rgb(223, 178, 30);
     display: inline-block;
@@ -141,5 +140,118 @@
     padding: 20px;
     font-style: italic;
     color: #555;
-    margin-top: 30px;
+    margin-top: 150px;
+}
+
+
+.cuadro-datos {
+
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    min-width: 300px;
+}
+
+.cuadro-datos h3 {
+    color: rgb(76, 122, 182);
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.lista-datos {
+    list-style: none;
+}
+
+.lista-datos li {
+    padding: 15px 0;
+    border-bottom: 1px solid #050509;
+    font-size: 16px;
+}
+
+.seccion-habilidades {
+    background-color: #ffffff;
+    padding: 80px 10%;
+    color: #333;
+}
+
+.tabla-container {
+    max-width: 900px;
+    margin: 0 auto;
+    background-color: #5b7289;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+    margin-bottom: 40px;
+}
+
+.tabla-skills {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-skills th {
+    background-color: #355779;
+    color: white;
+    text-align: left;
+    padding: 18px 25px;
+    font-size: 18px;
+}
+
+.tabla-skills td {
+    padding: 18px 25px;
+    border-bottom: 1px solid #000000;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.barra-fondo {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.barra-progreso {
+    height: 100%;
+    border-radius: 10px;
+}
+
+.html5 { width: 90%; background-color: #1e518c; }
+.css3  { width: 80%; background-color: #27ae60; }
+.js    { width: 60%; background-color: #f39c12; }
+.git   { width: 60%; background-color: #8e44ad; }
+.react { width: 30%; background-color: #e74c3c; }
+
+.listas-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.tarjeta-lista {
+    background-color: #5b7289;
+    padding: 35px;
+    border-radius: 10px;
+    border: 1px solid #f0f0f0;
+}
+
+.tarjeta-lista h3 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+.lista-viñetas, .lista-numerada {
+    margin-left: 20px;
+    color: #000000;
+    font-size: 17px;
+    line-height: 2;
+}
+
+.lista-viñetas li, .lista-numerada li {
+    padding-left: 10px;
 }
