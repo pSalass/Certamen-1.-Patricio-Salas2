@@ -92,3 +92,54 @@
     object-fit: cover;
 }
 
+.seccion-clara {
+    background-color: #5b7289;
+    color: #333;
+    padding: 80px 10%;
+}
+
+.titulo-seccion {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titulo-seccion h2 {
+    font-size: 35px;
+    color: rgb(223, 178, 30);
+    display: inline-block;
+    border-bottom: 4px solid #ffc400;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.subtitulo {
+    color: #020202;
+    font-size: 18px;
+}
+
+.detalles-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.biografia {
+    flex: 2;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #000000;
+}
+
+.biografia p {
+    margin-bottom: 20px;
+}
+
+.cita {
+    background-color: #fdf5e6;
+    border-left: 5px solid #f39c12;
+    padding: 20px;
+    font-style: italic;
+    color: #555;
+    margin-top: 30px;
+}
