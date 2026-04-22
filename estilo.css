@@ -95,7 +95,7 @@
 
     .seccion-SobreMi {
         background-color: #d3ecf2;
-        color: #333;
+        color: #000000;
         padding: 80px 10%;
     }
 
@@ -146,14 +146,14 @@
     }
 
     .cuadro-datos {
-        background-color: white;
+        background-color: #5b7289;
         padding: 30px;
         border-radius: 15px;
         min-width: 300px;
     }
 
     .cuadro-datos h3 {
-        color: rgb(76, 122, 182);
+        color: rgb(252, 252, 252);
         margin-bottom: 15px;
         font-size: 25px;
     }
@@ -164,7 +164,7 @@
 
     .lista-datos li {
         padding: 15px 0;
-        border-bottom: 1px solid #050509;
+        border-bottom: 1px solid #000000;
         font-size: 16px;
     }
 /* #endregion */
@@ -239,11 +239,11 @@
         background-color: #5b7289;
         padding: 35px;
         border-radius: 10px;
-        border: 1px solid #f0f0f0;
+        border: 1px solid #000000;
     }
 
     .tarjeta-lista h3 {
-        color: rgb(255, 255, 255);
+        color: rgb(203, 221, 223);
         margin-bottom: 25px;
         font-size: 20px;
     }
@@ -302,7 +302,7 @@
     }
 
     .contenido-proyecto h3 {
-        color: rgb(4, 49, 107);
+        color: rgb(203, 221, 223);
         font-size: 22px;
         margin-bottom: 12px;
     }
@@ -323,7 +323,7 @@
 /* #region Seccion Contacto */
 
 .seccion-contacto {
-    background-color: #ffffff;
+    background-color: #d3ecf2;
     padding: 80px 10%;
 }
 
@@ -362,23 +362,22 @@
 .formulario select, 
 .formulario textarea {
     padding: 12px 15px;
-    border: 1px solid #ddd;
+    border: 1px solid #ffffff;
     border-radius: 6px;
     font-size: 15px;
-    background-color: #f8f9fa;
-    outline: none;
-    transition: border-color 0.3s;
+    background-color: #ffffff;
+    outline: none;   
 }
 
 .formulario input:focus, 
 .formulario select:focus, 
 .formulario textarea:focus {
-    border-color: rgb(10, 59, 124);
+    border-color: rgb(0, 0, 0);
 }
 
 .btn-enviar {
-    background-color: rgb(10, 59, 124);
-    color: white;
+    background-color: #5b7289;
+    color: rgb(255, 255, 255);
     border: none;
     padding: 15px;
     font-size: 16px;
@@ -390,7 +389,7 @@
 }
 
 .btn-enviar:hover {
-    background-color: #0b438c;
+    background-color: #041021;
 }
 
 .info-contacto {
@@ -402,7 +401,7 @@
 }
 
 .info-contacto h3 {
-    color: rgb(10, 59, 124);
+    color: rgb(2, 2, 2);
     font-size: 20px;
     margin-bottom: 25px;
 }
@@ -420,9 +419,8 @@
     font-size: 16px;
 }
 
-
 .icono {
-    background-color: rgb(10, 59, 124);
+    background-color: #5b7289;
     color: white;
     width: 35px;
     height: 35px;
@@ -432,7 +430,9 @@
     border-radius: 6px;
     font-size: 16px;
 }
+/* #endregion */
 
+/* #region Seccion Footer */
 .footer {
     background-color: #5b7289;
     color: white;
@@ -473,3 +473,8 @@
     font-size: 14px;
     color: #bbbbbb;
 }
+
+.red-btn:hover {
+    color: #f39c12;
+}
+/* #endregion */
