@@ -28,7 +28,7 @@
     </header>
 
     <main>
-        <section id="sobre-mi" class="contenedor playfair-display-Letras">
+        <section id="Mi-Descripcion" class="contenedor playfair-display-Letras">
             <article class="post">
                 <h1 class="h1">Hola, soy <span class="mi_nombre">Patricio Salas Alarcon</span></h1>
                 <p class="h2">Estudiante de Informática</p>
@@ -41,7 +41,7 @@
             </div>
         </section>
 
-        <section class="seccion-clara playfair-display-Letras">
+        <section class="seccion-SobreMi playfair-display-Letras">
         <div class="titulo-SobreMi">
             <h2>Sobre Mí</h2>
             <p class="subtitulo">Conóceme un poco más</p>
@@ -208,8 +208,73 @@
 
             </div>
         </section>
+        
+        <section id="contacto" class="seccion-contacto playfair-display-Letras">
+        <div class="titulo-SobreMi">
+            <h2>Contacto</h2>
+            <p class="subtitulo">Envíame un mensaje</p>
+        </div>
 
+        <div class="contacto-container">
+            <form class="formulario" action="#" method="POST">
+                
+                <div class="form-fila">
+                    <div class="form-grupo">
+                        <label for="nombre">Nombre completo</label>
+                        <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" required>
+                    </div>
+                    <div class="form-grupo">
+                        <label for="email">Correo electrónico</label>
+                        <input type="email" id="email" name="email" placeholder="tu email" required>
+                    </div>
+                </div>
 
-    </main>
+                <div class="form-grupo">
+                    <label for="asunto">Asunto</label>
+                    <select id="asunto" name="asunto" required>
+                        <option value="" disabled selected>Selecciona un asunto</option>
+                        <option value="trabajo">Oportunidad laboral</option>
+                        <option value="proyecto">Contactar para Colaboracion</option>
+                        <option value="saludo">Consultas</option>
+                    </select>
+                </div>
+
+                <div class="form-grupo">
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aquí..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn-enviar">Enviar mensaje</button>
+            </form>
+
+            <aside class="info-contacto">
+                <h3>Información de contacto</h3>
+                <ul class="lista-info">
+                    <li><span class="icono">✉</span> patriciosalas28@email.com</li>
+                    <li><span class="icono">📍</span> Concepción, Chile</li>
+                    <li><span class="icono">📱</span> +56 9 7240 3580</li>
+                    <li><span class="icono">🌐</span> https://github.com/pSalass</li>
+                </ul>
+            </aside>
+        </div>
+        </section>
+     
+    </main> <footer class="footer playfair-display-Letras">
+            <div class="footer-superior">
+                <div class="logo-imagen">
+                    <img src="imagenes/Logo-PS.png" alt="Logo" class="logo-img" width="40" height="40">
+                    <span>Patricio Salas Alarcón</span>
+                </div>
+                <div class="redes-sociales">
+                    <a href="https://github.com/pSalass" class="red-btn">GH</a>
+                    <a href="#" class="red-btn">LI</a>
+                    <a href="#" class="red-btn">TW</a>
+                    <a href="#" class="red-btn">IG</a>
+                </div>
+            </div>
+            <div class="footer-inferior">
+                <p>&copy; 2026 Patricio Salas Alarcón. Todos los derechos reservados.</p>
+            </div>
+        </footer>
 </body>
 </html>
