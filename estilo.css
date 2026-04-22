@@ -119,7 +119,7 @@
 .detalles-container {
     display: flex;
     justify-content: space-between;
-    gap: 60px;
+    gap: 50px;
     align-items: flex-start;
 }
 
@@ -140,12 +140,10 @@
     padding: 20px;
     font-style: italic;
     color: #555;
-    margin-top: 150px;
+    margin-top: 100px;
 }
 
-
 .cuadro-datos {
-
     background-color: white;
     padding: 30px;
     border-radius: 15px;
@@ -254,4 +252,62 @@
 
 .lista-viñetas li, .lista-numerada li {
     padding-left: 10px;
+}
+
+\\Proyectos\\
+
+.seccion-proyectos {
+    background-color: #f8fcfd;
+    padding: 80px 10%;
+}
+
+.galeria-proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.tarjeta-proyecto {
+    background-color: #5b7289;
+    border-radius: 12px;
+    overflow: hidden;
+    margin: 0;
+    transition: transform 0.3s ease;
+}
+
+.img-proyecto {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+}
+
+.contenido-proyecto {
+    padding: 25px;
+}
+
+.categoria-proyecto {
+    display: block;
+    color: #000000;
+    font-size: 13px;
+    margin-bottom: 8px;
+}
+
+.contenido-proyecto h3 {
+    color: rgb(4, 49, 107);
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+
+.contenido-proyecto p {
+    color: #070505;
+    font-size: 15px;
+    
+    margin-bottom: 20px;
+}
+
+.enlace-proyecto:hover {
+    color: #f39c12;
 }
